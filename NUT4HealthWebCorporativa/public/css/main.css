@@ -21,7 +21,7 @@
  *  13. infos
  *  14. stats
  *  15. problem
- *  16. testimonials
+ *  16. team
  *  17. hand
  *  18. medal
  *  19. footer
@@ -2132,22 +2132,22 @@ header .logo a {
 
 
 /* ===================================================================
- * 16. testimonials - (_layout.scss)
+ * 16. team - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#testimonials {
+#team {
 	padding: 12rem 0 10.2rem;
 	background: #FFFFFF;
 	text-align: center;
 }
 
-#testimonials h2 {
+#team h2 {
 	margin-bottom: 3.6rem;
 	padding-bottom: 3.6rem;
 	position: relative;
 }
 
-#testimonials h2::after {
+#team h2::after {
 	display: block;
 	background-color: rgba(0, 24, 53, 0.4);
 	width: 120px;
@@ -2159,13 +2159,13 @@ header .logo a {
 	margin-left: -60px;
 }
 
-#testimonials .slides li p {
+#team .slides li p {
 	font-family: "domine-regular", serif;
 	font-size: 3rem;
 	line-height: 1.6;
 }
 
-#testimonials .slides li .author-info {
+#team .slides li .author-info {
 	font-size: 1.6rem;
 	font-family: "roboto-black", sans-serif;
 	font-style: normal;
@@ -2173,25 +2173,25 @@ header .logo a {
 	letter-spacing: .2rem;
 }
 
-#testimonials .flexslider-controls {
+#team .flexslider-controls {
 	margin-top: 3rem;
 }
 
-#testimonials .flexslider-controls .flex-control-nav {
+#team .flexslider-controls .flex-control-nav {
 	list-style: none;
 	margin: 0;
 	z-index: 700;
 	position: relative;
 }
 
-#testimonials .flexslider-controls .flex-control-nav li {
+#team .flexslider-controls .flex-control-nav li {
 	cursor: pointer;
 	display: inline-block;
 	margin: 0 5px;
 	padding-left: 0;
 }
 
-#testimonials .flexslider-controls .flex-control-nav li img {
+#team .flexslider-controls .flex-control-nav li img {
 	cursor: pointer;
 	width: 60px;
 	opacity: .3;
@@ -2203,20 +2203,20 @@ header .logo a {
 	transition: all 0.5s ease-in-out;
 }
 
-#testimonials .flexslider-controls .flex-control-nav li.flex-active img {
+#team .flexslider-controls .flex-control-nav li.flex-active img {
 	opacity: 1;
 }
 
-#testimonials .flexslider-controls .flex-control-nav li:hover img {
+#team .flexslider-controls .flex-control-nav li:hover img {
 	opacity: 1;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * testimonials 
+ * team 
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
-	#testimonials .slides li p {
+	#team .slides li p {
 		font-size: 2.8rem;
 		line-height: 1.68;
 	}
@@ -2224,12 +2224,12 @@ header .logo a {
 }
 
 @media only screen and (max-width:600px) {
-	#testimonials h2 {
+	#team h2 {
 		font-size: 2.8rem;
 		line-height: 1.393;
 	}
 
-	#testimonials .slides li p {
+	#team .slides li p {
 		font-size: 2.5rem;
 		line-height: 1.615;
 	}
@@ -2237,7 +2237,7 @@ header .logo a {
 }
 
 @media only screen and (max-width:400px) {
-	#testimonials .slides li p {
+	#team .slides li p {
 		font-size: 2.2rem;
 		line-height: 1.636;
 	}
