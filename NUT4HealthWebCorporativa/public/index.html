@@ -90,7 +90,6 @@
 			<li><a class="smoothscroll" href="#stats" title="">Estadísticas</a></li>				
 			<li><a class="smoothscroll" href="#team" title="">Quienes somos</a></li>	
 			<li><a class="smoothscroll" href="#hand" title="">De la mano de...</a></li>
-			<li><a class="smoothscroll" href="#medals" title="">Premios recibidos</a></li>
 			<li><a class="smoothscroll" href="#main-footer" title="">Contacto</a></li>			
 		</ul>
 
@@ -114,13 +113,13 @@
 		   <div class="row intro-content">
 		   	<div class="col-twelve">
 
-		   		<h3 class="animate-intro" data-tr="NUT4Health" id="NUT4Health"></h3>
+		   		<h3 class="animate-intro" data-tr="NUT4Health" id="app-title"></h3>
 			  		
 					<h1 class="animate-intro" data-tr="TECNOLOGÍA PARA ACABAR CON EL HAMBRE"></h1>	
 					
 							
 
-					<img src="images/app-screenshot-big.jpg" alt="" class="animate-intro">   			
+					<img src="images/app-screenshot-big.png" alt="" class="animate-intro">   			
 
 			  	</div> <!-- /twelve --> 		   			
 		   </div> <!-- /row -->   
@@ -213,9 +212,11 @@
 			<div class="row section-intro group animate-this">	
 	   		<div class="col-twelve with-bottom-line">
 
+	   		<h5 class="animate-this" data-animate="fadeInLeft">La solución</h5>
+
 	   			<h2 class="">¿Qué es Nut4Health?</h2>
 
-	   			<p class="lead">Nut4Health es una plataforma tecnológica que transforma la forma en que se implementan las intervenciones en desnutrición a través de la combinación de tecnología y desarrollo local. Para ello, transforma a los voluntarios comunitarios de salud en profesionales del diagnóstico pagándoles por resultados obtenidos. Los pagos son automatizados en base a "Smart contracts" (contratos inteligentes) que permiten una transparencia absoluta sobre los fondos y la trazabilidad de los pagos.</p>
+	   			<p class="lead">Nut4Health es una plataforma tecnológica que promueve una búsqueda activa de pacientes en desnutrición a través de un sistema de pagos con tecnología blockchain que permite una identificación de los casos antes de que sea demasiado tarde.</p>
 
 	   		</div>   		
 	   	</div>
@@ -295,7 +296,7 @@
 
    				<div class="col-six text-part">   				
    					
-   					<h5 class="animate-this" data-animate="fadeInLeft">Un ejemplo claro</h5>
+   					<h5 class="animate-this" data-animate="fadeInLeft">Un ejemplo práctico</h5>
    					<h2 class="animate-this" data-animate="fadeInLeft">Cómo Funciona Nut4Health</h2>
 
    					<p class="animate-this" data-animate="fadeInLeft">Un ejemplo: de 25€ que cuesta un tratamiento medio de desnutrción, en el momento en el que el "profesional del diagnóstico" identifica un niño con desnutrición, se abriría un contrato inteligente automatizado. Cuando este niño ingrese en el centro de tratamiento, este contrato inteligente se ejecutará y 1€ irá a parar a la cuenta del profesional. Otros 23€ van dirigidos a garantizar la capacidad de respuesta de los centros médicos (a través de la compra de suplementos, medicinas, etc.) y un 1€ al final del proceso se quedará en la plataforma para poder viabilizar la intervención y seguir escalando el modelo. </p>
@@ -390,18 +391,31 @@
    	</section> <!-- infos -->
 
 
-		<!-- stats
+   		<!-- stats
    	================================================== -->
-<section id="stats">
 
-	   	<div class="overlay"></div>
+	<!-- stats
+   	================================================== -->
+   	<section id="stats" class="count-up">
 
-	   	<div id="inner">
-	   		
+			<div class="row">
+				<div class="col-twelve">
 
-<div class="row hand-content" >
-	   		<div class="col-twelve">
+					<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
 
+						<div class="bgrid stat" style="visibility: hidden;">
+
+							<div class="icon-part">
+								<i class="icon-pencil-ruler"></i>
+							</div>
+
+							<h3 class="stat-count">110</h3>
+
+							<h5 class="stat-title">
+								Awesome Projects
+							</h5>
+
+						</div> <!-- /stat -->					
 
 						<div class="bgrid stat">
 
@@ -415,7 +429,7 @@
 								Años en seguridad nutricional
 							</h5>
 
-						</div> <!-- /stat -->		
+						</div> <!-- /stat -->	
 
 						<div class="bgrid stat">
 
@@ -429,9 +443,7 @@
 								Años en TICs
 							</h5>
 
-						</div> <!-- /stat -->	
-
-						
+						</div> <!-- /stat -->									
 
 						<div class="bgrid stat">
 
@@ -445,16 +457,42 @@
 								% desarrollado del proyecto
 							</h5>
 
-						</div> <!-- /stat -->		
+						</div> <!-- /stat -->	
 
-	   		</div>
-	   	</div>
+						<div class="bgrid stat">
 
-	   		
-	   	</div>
+							<div class="icon-part">
+								<i class="icon-rewards-medal-1"></i>
+							</div>
 
-	   	
-   	</section>
+							<h3 class="stat-count">3</h3>
+
+							<h5 class="stat-title">
+								Premios recibidos
+							</h5>
+
+						</div> <!-- /stat -->			
+
+						<div class="bgrid stat" style="visibility: hidden;">
+
+							<div class="icon-part">
+								<i class="icon-hourglass"></i>
+							</div>
+
+							<h3 class="stat-count">7200</h3>
+
+							<h5 class="stat-title">
+								Hours
+							</h5>
+
+						</div> <!-- /stat -->
+
+					</div> <!-- /stats-list -->
+
+				</div> <!-- /twelve -->
+			</div> <!-- /row -->
+
+		</section> <!-- /stats -->
 
 
 
@@ -537,73 +575,6 @@
 	   		</div>
 	   	</div>
    	</section> <!-- /hand -->
-
-
-
-	   	<!-- medal
-   	================================================== -->
-   	<section id="medals">
-
-   		<div class="medal-entry">
-
-   			<div class="half-grey"></div>
-
-   			<div class="row medal-entry-content">
-
-   				<div class="media-wrap">
-   					<div class="media animate-this"  data-animate="fadeInRight">
-   						<img src="images/EOI_gran_canaria_premio.png" alt="">
-   					</div>   				      				
-   				</div>
-
-   				<div class="col-six text-part">   				
-   					
-   					<h5 class="animate-this" data-animate="fadeInLeft"></h5>
-   					<h2 class="animate-this" data-animate="fadeInLeft"></h2>
-
-   					<p class="animate-this" data-animate="fadeInLeft">Nut4Health fue elegido mejor proyecto del Coworking de la Escuela de Organización Industrial y la SPEGC en Gran Canaria. </p>
-
-   					<a href="https://www.eldiario.es/cacreativa/blog/grancanariainforma/profesionaliza-Programa-Go2Work-Gran-Canaria_6_759834030.html"  target="_blank" class="button animate-this" data-animate="fadeInLeft">Saber más</a>
-
-   			 					
-   				</div>   				
-   				
-   			</div> <!-- /medal-entry-content -->
-
-   		</div> <!-- /medal-entry -->
-
-   		<div class="medal-entry">
-
-   			<div class="half-grey"></div>
-
-   			<div class="row medal-entry-content">
-
-   				<div class="media-wrap">
-   					<div class="media animate-this"  data-animate="fadeInLeft">
-   						<img src="images/EOI_nacional.png" alt="">
-   					</div>   				      				
-   				</div>
-
-   				<div class="col-six text-part">   				
-   					
-   					<h5 class="animate-this" data-animate="fadeInRight"></h5>
-   					<h2 class="animate-this" data-animate="fadeInRight"></h2>
-
-   					<p class="animate-this" data-animate="fadeInRight">Nut4Health fue elegido el mejor proyecto social a nivel nacional por el EOI.</p>
-
-   					<a href="https://www.apte.org/nut4health-asesorado-spegc-eoi-en-go2work"  target="_blank" class="button animate-this" data-animate="fadeInLeft">Saber más</a>
-
-   			 					
-   				</div>   				
-   				
-   			</div> <!-- /medal-entry-content -->
-
-   		</div> <!-- /medal-entry -->
-
-
-
-   	
-   	</section> <!-- medals -->
 
 
    <!-- footer

@@ -6,7 +6,7 @@ frases = {
   "en": {
     "Español": "Spanish",
     "Inglés": "English",
-    "TECNOLOGÍA PARA ACABAR CON EL HAMBRE": "TECHNOLOGY TO FINISH HUNGER",
+    "TECNOLOGÍA PARA ACABAR CON EL HAMBRE": "TECHNOLOGY TO FINISH WITH HUNGER",
     "Menú": "Menu",
     "Inicio": "Start",
     "NUT4Health": "NUT4Health",
