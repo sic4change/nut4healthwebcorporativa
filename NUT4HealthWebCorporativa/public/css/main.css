@@ -1614,26 +1614,33 @@ header .logo a {
  * ------------------------------------------------------------------- */
 #blockchains {
 	padding: 15rem 0 12rem;
-	background-color: #ffffff;
+	background: url("../images/BlockChain.jpg") no-repeat center;
 	overflow: hidden;
 }
 
 #blockchains .blockchains-wrap {
+	color: #ffffff;
 	margin-top: 1.5rem;
 	max-width: 1170px;
 }
 
 #blockchains .blockchain {
+	color: #ffffff;
 	padding: 0 30px 1.5rem 30px;
 }
 
+#blockchains h2 {
+	color: #ffffff;
+}
+
 #blockchains h3 {
+	color: #ffffff;
 	font-family: "roboto-medium", sans-serif;
 }
 
 #blockchains .blockchain-count {
 	display: block;
-	color: #4590c3;
+	color: #ffffff;
 	font-family: "roboto-bold", serif;
 	font-size: 4rem;
 	line-height: 1;
