@@ -1609,6 +1609,68 @@ header .logo a {
 
 
 /* ===================================================================
+ * 12. blockchains - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#blockchains {
+	padding: 15rem 0 12rem;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+#blockchains .blockchains-wrap {
+	margin-top: 1.5rem;
+	max-width: 1170px;
+}
+
+#blockchains .blockchain {
+	padding: 0 30px 1.5rem 30px;
+}
+
+#blockchains h3 {
+	font-family: "roboto-medium", sans-serif;
+}
+
+#blockchains .blockchain-count {
+	display: block;
+	color: #4590c3;
+	font-family: "roboto-bold", serif;
+	font-size: 4rem;
+	line-height: 1;
+	margin-bottom: 2.4rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * blockchains
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:768px) {
+	#blockchains {
+		padding: 11.4rem 0 10.6rem;
+	}
+
+	#blockchains .blockchains-wrap {
+		max-width: 600px;
+	}
+
+	#blockchains .blockchain {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width:600px) {
+	#blockchains .blockchain {
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	#blockchains .blockchain {
+		padding: 0;
+	}
+}
+
+
+/* ===================================================================
  * 13. infos - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
