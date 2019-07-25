@@ -1545,6 +1545,38 @@ header .logo a {
 	margin-bottom: 2.4rem;
 }
 
+/* ===================================================================
+ * 13. alianze - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#alianze {
+	padding: 15rem 0 12rem;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+#alianze .alianze-wrap {
+	margin-top: 1.5rem;
+	max-width: 1170px;
+}
+
+#alianze .alianze {
+	padding: 0 30px 1.5rem 30px;
+}
+
+#alianze h3 {
+	font-family: "roboto-medium", sans-serif;
+}
+
+#alianze .alianze-count {
+	display: block;
+	color: #4590c3;
+	font-family: "roboto-bold", serif;
+	font-size: 4rem;
+	line-height: 1;
+	margin-bottom: 2.4rem;
+}
+
 
 /* ===================================================================
  * 12. features - (_layout.scss)

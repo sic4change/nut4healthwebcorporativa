@@ -76,6 +76,11 @@ frases = {
     "Se ha vuelto terriblemente obvio que nuestra tecnología ha superado nuestra humanidad - Albert Einstein": "Se ha vuelto terriblemente obvio que nuestra tecnología ha superado nuestra humanidad - Albert Einstein",
     "Dónde estamos": "Dónde estamos",
     "Contáctanos": "Contáctanos",
+    "Alianza": "Alianza",
+    "Alianza estratégica y tecnológica": "Alianza estratégica y tecnológica",
+    "Organización humanitaria internacional dedicada a acabar con el hambre en el planeta. Ha desarrollado SAMPhoto, una tecnología para diagnosticar la desnutrición a través de una fotografía.": "Organización humanitaria internacional dedicada a acabar con el hambre en el planeta. Ha desarrollado SAMPhoto, una tecnología para diagnosticar la desnutrición a través de una fotografía.",
+    "Cluster de innovación social que aplica tecnología para resolver problemas sociales. Ha desarrollado tecnología para activar los contratos inteligentes y analizar la información a través del sistema de incentivos.": "Cluster de innovación social que aplica tecnología para resolver problemas sociales. Ha desarrollado tecnología para activar los contratos inteligentes y analizar la información a través del sistema de incentivos.",
+    
   }
 };
 
