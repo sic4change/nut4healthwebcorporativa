@@ -1518,8 +1518,8 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #problems {
-	padding: 15rem 0 12rem;
-	background-color: #ffffff;
+	padding: 5rem 0 0rem;
+	background-color: #E2E5E7;
 	overflow: hidden;
 }
 
@@ -1550,7 +1550,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #alianze {
-	padding: 15rem 0 12rem;
+	padding: 5rem 0 0rem;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -1583,7 +1583,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #features {
-	padding: 15rem 0 12rem;
+	padding: 5rem 0 5rem;
 	background-color: #ffffff;
 	overflow: hidden;
 }
@@ -1645,7 +1645,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 #blockchains {
-	padding: 15rem 0 12rem;
+	padding: 5rem 0 0rem;
 	background: url("../images/BlockChain.jpg") no-repeat center;
 	overflow: hidden;
 }
