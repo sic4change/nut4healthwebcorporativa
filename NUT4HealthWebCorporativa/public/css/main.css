@@ -1772,8 +1772,8 @@ header .logo a {
 }
 
 .info-entry-content {
-	padding-top: 13.2rem;
-	padding-bottom: 10.8rem;
+	padding-top: 3.2rem;
+	padding-bottom: 0.8rem;
 }
 
 .info-entry-content h5 {
@@ -1804,7 +1804,7 @@ header .logo a {
 }
 
 .info-entry:last-child .info-entry-content {
-	padding-bottom: 13.2rem;
+	padding-bottom: 0.0rem;
 }
 
 /* ------------------------------------------------------------------- 
